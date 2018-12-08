@@ -1567,6 +1567,11 @@ black-hole-stream@~0.0.1:
   resolved "http://registry.npm.taobao.org/black-hole-stream/download/black-hole-stream-0.0.1.tgz#33b7a06b9f1e7453d6041b82974481d2152aea42"
   integrity sha1-M7ega58edFPWBBuCl0SB0hUq6kI=
 
+bluebird@^3.3.4:
+  version "3.5.3"
+  resolved "http://registry.npm.taobao.org/bluebird/download/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
+  integrity sha1-fQHG+WFsmlGrD4xUmnnf5uwz76c=
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "http://registry.npm.taobao.org/brace-expansion/download/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -1972,6 +1977,11 @@ cluster-client@^2.1.1:
     serialize-json "^1.0.3"
     tcp-base "^3.1.0"
     utility "^1.15.0"
+
+cluster-key-slot@^1.0.6:
+  version "1.0.12"
+  resolved "http://registry.npm.taobao.org/cluster-key-slot/download/cluster-key-slot-1.0.12.tgz#d5deff2a520717bc98313979b687309b2d368e29"
+  integrity sha1-1d7/KlIHF7yYMTl5tocwmy02jik=
 
 cluster-reload@^1.0.2:
   version "1.0.2"
@@ -2642,6 +2652,11 @@ delegates@^1.0.0:
   resolved "http://registry.npm.taobao.org/delegates/download/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
+denque@^1.1.0:
+  version "1.4.0"
+  resolved "http://registry.npm.taobao.org/denque/download/denque-1.4.0.tgz#79e2f0490195502107f24d9553f374837dabc916"
+  integrity sha1-eeLwSQGVUCEH8k2VU/N0g32ryRY=
+
 depd@^1.1.0, depd@^1.1.2, depd@~1.1.2:
   version "1.1.2"
   resolved "http://registry.npm.taobao.org/depd/download/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
@@ -2967,6 +2982,13 @@ egg-path-matching@^1.0.0, egg-path-matching@^1.0.1:
   integrity sha1-zPxOQIrNHPlKf2cvuMlp5FaIORM=
   dependencies:
     path-to-regexp "^1.7.0"
+
+egg-redis@^2.2.0:
+  version "2.2.0"
+  resolved "http://registry.npm.taobao.org/egg-redis/download/egg-redis-2.2.0.tgz#27b59f128cbff2b14e31095c46ad3dab2d5d26aa"
+  integrity sha1-J7WfEoy/8rFOMQlcRq09qy1dJqo=
+  dependencies:
+    ioredis "^3.2.2"
 
 egg-schedule@^3.4.0:
   version "3.5.0"
@@ -3764,6 +3786,11 @@ flat-cache@^1.2.1:
     rimraf "~2.6.2"
     write "^0.2.1"
 
+flexbuffer@0.0.6:
+  version "0.0.6"
+  resolved "http://registry.npm.taobao.org/flexbuffer/download/flexbuffer-0.0.6.tgz#039fdf23f8823e440c38f3277e6fef1174215b30"
+  integrity sha1-A5/fI/iCPkQMOPMnfm/vEXQhWzA=
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/for-in/download/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -4410,6 +4437,35 @@ invert-kv@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/invert-kv/download/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
   integrity sha1-c5P1r6Weyf9fZ6J2INEcIm4+7AI=
+
+ioredis@^3.2.2:
+  version "3.2.2"
+  resolved "http://registry.npm.taobao.org/ioredis/download/ioredis-3.2.2.tgz#b7d5ff3afd77bb9718bb2821329b894b9a44c00b"
+  integrity sha1-t9X/Ov13u5cYuyghMpuJS5pEwAs=
+  dependencies:
+    bluebird "^3.3.4"
+    cluster-key-slot "^1.0.6"
+    debug "^2.6.9"
+    denque "^1.1.0"
+    flexbuffer "0.0.6"
+    lodash.assign "^4.2.0"
+    lodash.bind "^4.2.1"
+    lodash.clone "^4.5.0"
+    lodash.clonedeep "^4.5.0"
+    lodash.defaults "^4.2.0"
+    lodash.difference "^4.5.0"
+    lodash.flatten "^4.4.0"
+    lodash.foreach "^4.5.0"
+    lodash.isempty "^4.4.0"
+    lodash.keys "^4.2.0"
+    lodash.noop "^3.0.1"
+    lodash.partial "^4.2.1"
+    lodash.pick "^4.4.0"
+    lodash.sample "^4.2.1"
+    lodash.shuffle "^4.2.0"
+    lodash.values "^4.3.0"
+    redis-commands "^1.2.0"
+    redis-parser "^2.4.0"
 
 ip@^1.1.4, ip@^1.1.5:
   version "1.1.5"
@@ -5225,25 +5281,75 @@ lodash._reinterpolate@~3.0.0:
   resolved "http://registry.npm.taobao.org/lodash._reinterpolate/download/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
 
+lodash.assign@^4.2.0:
+  version "4.2.0"
+  resolved "http://registry.npm.taobao.org/lodash.assign/download/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
+  integrity sha1-DZnzzNem0mHRm9rrkkUAXShYCOc=
+
+lodash.bind@^4.2.1:
+  version "4.2.1"
+  resolved "http://registry.npm.taobao.org/lodash.bind/download/lodash.bind-4.2.1.tgz#7ae3017e939622ac31b7d7d7dcb1b34db1690d35"
+  integrity sha1-euMBfpOWIqwxt9fX3LGzTbFpDTU=
+
 lodash.camelcase@4.3.0:
   version "4.3.0"
   resolved "http://registry.npm.taobao.org/lodash.camelcase/download/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
   integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
+
+lodash.clone@^4.5.0:
+  version "4.5.0"
+  resolved "http://registry.npm.taobao.org/lodash.clone/download/lodash.clone-4.5.0.tgz#195870450f5a13192478df4bc3d23d2dea1907b6"
+  integrity sha1-GVhwRQ9aExkkeN9Lw9I9LeoZB7Y=
+
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "http://registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
 lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "http://registry.npm.taobao.org/lodash.debounce/download/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
+lodash.defaults@^4.2.0:
+  version "4.2.0"
+  resolved "http://registry.npm.taobao.org/lodash.defaults/download/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
+  integrity sha1-0JF4cW/+pN3p5ft7N/bwgCJ0WAw=
+
+lodash.difference@^4.5.0:
+  version "4.5.0"
+  resolved "http://registry.npm.taobao.org/lodash.difference/download/lodash.difference-4.5.0.tgz#9ccb4e505d486b91651345772885a2df27fd017c"
+  integrity sha1-nMtOUF1Ia5FlE0V3KIWi3yf9AXw=
+
+lodash.flatten@^4.4.0:
+  version "4.4.0"
+  resolved "http://registry.npm.taobao.org/lodash.flatten/download/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
+  integrity sha1-8xwiIlqWMtK7+OSt2+8kCqdlph8=
+
 lodash.flattendeep@^4.4.0:
   version "4.4.0"
   resolved "http://registry.npm.taobao.org/lodash.flattendeep/download/lodash.flattendeep-4.4.0.tgz#fb030917f86a3134e5bc9bec0d69e0013ddfedb2"
   integrity sha1-+wMJF/hqMTTlvJvsDWngAT3f7bI=
 
+lodash.foreach@^4.5.0:
+  version "4.5.0"
+  resolved "http://registry.npm.taobao.org/lodash.foreach/download/lodash.foreach-4.5.0.tgz#1a6a35eace401280c7f06dddec35165ab27e3e53"
+  integrity sha1-Gmo16s5AEoDH8G3d7DUWWrJ+PlM=
+
+lodash.isempty@^4.4.0:
+  version "4.4.0"
+  resolved "http://registry.npm.taobao.org/lodash.isempty/download/lodash.isempty-4.4.0.tgz#6f86cbedd8be4ec987be9aaf33c9684db1b31e7e"
+  integrity sha1-b4bL7di+TsmHvpqvM8loTbGzHn4=
+
 lodash.kebabcase@4.1.1:
   version "4.1.1"
   resolved "http://registry.npm.taobao.org/lodash.kebabcase/download/lodash.kebabcase-4.1.1.tgz#8489b1cb0d29ff88195cceca448ff6d6cc295c36"
   integrity sha1-hImxyw0p/4gZXM7KRI/21swpXDY=
+
+lodash.keys@^4.2.0:
+  version "4.2.0"
+  resolved "http://registry.npm.taobao.org/lodash.keys/download/lodash.keys-4.2.0.tgz#a08602ac12e4fb83f91fc1fb7a360a4d9ba35205"
+  integrity sha1-oIYCrBLk+4P5H8H7ejYKTZujUgU=
 
 lodash.merge@4.6.1:
   version "4.6.1"
@@ -5255,15 +5361,35 @@ lodash.mergewith@4.6.1:
   resolved "http://registry.npm.taobao.org/lodash.mergewith/download/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
   integrity sha1-Y5BX5ybDr72z59QnQcqo1uQzWSc=
 
+lodash.noop@^3.0.1:
+  version "3.0.1"
+  resolved "http://registry.npm.taobao.org/lodash.noop/download/lodash.noop-3.0.1.tgz#38188f4d650a3a474258439b96ec45b32617133c"
+  integrity sha1-OBiPTWUKOkdCWEObluxFsyYXEzw=
+
 lodash.omit@4.5.0:
   version "4.5.0"
   resolved "http://registry.npm.taobao.org/lodash.omit/download/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
   integrity sha1-brGa5aHuHdnfC5aeZs4Lf6MLXmA=
 
-lodash.pick@4.4.0:
+lodash.partial@^4.2.1:
+  version "4.2.1"
+  resolved "http://registry.npm.taobao.org/lodash.partial/download/lodash.partial-4.2.1.tgz#49f3d8cfdaa3bff8b3a91d127e923245418961d4"
+  integrity sha1-SfPYz9qjv/izqR0SfpIyRUGJYdQ=
+
+lodash.pick@4.4.0, lodash.pick@^4.4.0:
   version "4.4.0"
   resolved "http://registry.npm.taobao.org/lodash.pick/download/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
   integrity sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=
+
+lodash.sample@^4.2.1:
+  version "4.2.1"
+  resolved "http://registry.npm.taobao.org/lodash.sample/download/lodash.sample-4.2.1.tgz#5e4291b0c753fa1abeb0aab8fb29df1b66f07f6d"
+  integrity sha1-XkKRsMdT+hq+sKq4+ynfG2bwf20=
+
+lodash.shuffle@^4.2.0:
+  version "4.2.0"
+  resolved "http://registry.npm.taobao.org/lodash.shuffle/download/lodash.shuffle-4.2.0.tgz#145b5053cf875f6f5c2a33f48b6e9948c6ec7b4b"
+  integrity sha1-FFtQU8+HX29cKjP0i26ZSMbse0s=
 
 lodash.snakecase@4.1.1:
   version "4.1.1"
@@ -5299,6 +5425,11 @@ lodash.upperfirst@4.3.1:
   version "4.3.1"
   resolved "http://registry.npm.taobao.org/lodash.upperfirst/download/lodash.upperfirst-4.3.1.tgz#1365edf431480481ef0d1c68957a5ed99d49f7ce"
   integrity sha1-E2Xt9DFIBIHvDRxolXpe2Z1J984=
+
+lodash.values@^4.3.0:
+  version "4.3.0"
+  resolved "http://registry.npm.taobao.org/lodash.values/download/lodash.values-4.3.0.tgz#a3a6c2b0ebecc5c2cba1c17e6e620fe81b53d347"
+  integrity sha1-o6bCsOvsxcLLocF+bmIP6BtT00c=
 
 lodash@^4.17.10, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0:
   version "4.17.11"
@@ -6747,6 +6878,16 @@ redent@^2.0.0:
   dependencies:
     indent-string "^3.0.0"
     strip-indent "^2.0.0"
+
+redis-commands@^1.2.0:
+  version "1.4.0"
+  resolved "http://registry.npm.taobao.org/redis-commands/download/redis-commands-1.4.0.tgz#52f9cf99153efcce56a8f86af986bd04e988602f"
+  integrity sha1-UvnPmRU+/M5WqPhq+Ya9BOmIYC8=
+
+redis-parser@^2.4.0:
+  version "2.6.0"
+  resolved "http://registry.npm.taobao.org/redis-parser/download/redis-parser-2.6.0.tgz#52ed09dacac108f1a631c07e9b69941e7a19504b"
+  integrity sha1-Uu0J2srBCPGmMcB+m2mUHnoZUEs=
 
 regenerate@^1.2.1:
   version "1.4.0"
