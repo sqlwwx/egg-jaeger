@@ -28,7 +28,6 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "precommit": "lint-staged",
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
@@ -60,5 +59,10 @@
   },
   "homepage": "https://github.com/eggjs/egg-jaeger#readme",
   "author": "sqlwwx <wwx_2012@live.com> (http://wiki.lab.wuweixing.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
 }
