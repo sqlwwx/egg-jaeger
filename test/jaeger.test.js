@@ -17,7 +17,7 @@ describe('test/jaeger.test.js', () => {
   it('should GET /', () => {
     return app.httpRequest()
       .get('/')
-      .expect('hi, jaeger')
+      .expect('hi, jaeger_bar')
       .expect(200);
   });
 });

@@ -1,4 +1,7 @@
 {
   "name": "jaeger-test",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "egg-redis": "^2.2.0"
+  }
 }
