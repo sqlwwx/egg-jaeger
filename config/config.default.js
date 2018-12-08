@@ -3,8 +3,10 @@
 /**
  * egg-jaeger default config
  * @member Config#jaeger
- * @property {String} SOME_KEY - some description
+ * @property {Boolean} sequelize - tracer sequelize ?
+ * @property {Boolean} redis - tracer redis ?
  */
 exports.jaeger = {
-
+  sequelize: true,
+  redis: true,
 };
