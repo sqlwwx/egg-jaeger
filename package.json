@@ -61,12 +61,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-jaeger.git"
+    "url": "git+https://github.com/sqlwwx/egg-jaeger.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/sqlwwx/egg-jaeger/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-jaeger#readme",
+  "homepage": "https://github.com/sqlwwx/egg-jaeger#readme",
   "author": "sqlwwx <wwx_2012@live.com> (http://wiki.lab.wuweixing.com)",
   "license": "MIT",
   "husky": {

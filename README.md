@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-jaeger.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-jaeger
-[travis-image]: https://img.shields.io/travis/eggjs/egg-jaeger.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-jaeger
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-jaeger.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-jaeger?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-jaeger.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-jaeger
+[travis-image]: https://img.shields.io/travis/sqlwwx/egg-jaeger.svg?style=flat-square
+[travis-url]: https://travis-ci.org/sqlwwx/egg-jaeger
+[codecov-image]: https://img.shields.io/codecov/c/github/sqlwwx/egg-jaeger.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/sqlwwx/egg-jaeger?branch=master
+[david-image]: https://img.shields.io/david/sqlwwx/egg-jaeger.svg?style=flat-square
+[david-url]: https://david-dm.org/sqlwwx/egg-jaeger
 [snyk-image]: https://snyk.io/test/npm/egg-jaeger/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-jaeger
 [download-image]: https://img.shields.io/npm/dm/egg-jaeger.svg?style=flat-square
@@ -56,7 +56,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/sqlwwx/egg-jaeger/issues).
 
 ## License
 
