@@ -25,6 +25,7 @@ module.exports = {
   },
   startSpan(name, tags = {}) {
     this.coreLogger.debug('[egg-jaeger] startSpan %s', name);
+    tags['app.version'] = this.loader.pkg.version;
     tags['worker.id'] = WORKER_ID;
     tags['process.id'] = process.pid;
     tags['local.ipv4'] = IPV4;
