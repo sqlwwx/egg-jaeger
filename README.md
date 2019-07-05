@@ -24,6 +24,11 @@
 Description here.
 -->
 
+## hooks
+* [x] egg-redis
+* [x] egg-sequelize
+* [ ] knex
+
 ## Install
 
 ```bash
@@ -62,7 +67,4 @@ Please open an issue [here](https://github.com/sqlwwx/egg-jaeger/issues).
 
 [MIT](LICENSE)
 
-## hooks
-* [x] egg-redis
-* [x] egg-sequelize
-* [ ] objection.js
+
