@@ -61,3 +61,8 @@ Please open an issue [here](https://github.com/sqlwwx/egg-jaeger/issues).
 ## License
 
 [MIT](LICENSE)
+
+## hooks
+* [x] egg-redis
+* [x] egg-sequelize
+* [ ] objection.js
