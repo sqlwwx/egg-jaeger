@@ -27,7 +27,8 @@ Description here.
 ## hooks
 * [x] egg-redis
 * [x] egg-sequelize
-* [ ] knex
+* [x] mysql2
+* [ ] mongodb
 
 ## Install
 
