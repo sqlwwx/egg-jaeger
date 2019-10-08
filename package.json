@@ -12,23 +12,23 @@
   ],
   "dependencies": {
     "async-local-storage": "^2.1.0",
-    "jaeger-client": "^3.13.0"
+    "jaeger-client": "^3.17.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
-    "@commitlint/config-conventional": "^8.0.0",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
-    "egg": "^2.0.0",
-    "egg-bin": "^4.3.0",
-    "egg-ci": "^1.8.0",
-    "egg-mock": "^3.13.0",
+    "egg": "^2.23.0",
+    "egg-bin": "^4.13.2",
+    "egg-ci": "^1.13.0",
+    "egg-mock": "^3.24.1",
     "egg-redis": "^2.2.0",
-    "eslint": "^6.0.1",
-    "eslint-config-egg": "^7.4.1",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.0.2",
-    "standard-version": "^6.0.1",
+    "eslint": "^6.5.1",
+    "eslint-config-egg": "^7.5.1",
+    "husky": "^3.0.8",
+    "lint-staged": "^9.4.1",
+    "standard-version": "^7.0.0",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
