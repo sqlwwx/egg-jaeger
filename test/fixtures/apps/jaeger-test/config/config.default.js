@@ -42,4 +42,7 @@ exports.jaeger = {
     username: process.env.TRACE_USERNAME || 'test',
     password: process.env.TRACE_PASS || 'test',
   },
+  hooks: {
+    redis: true,
+  },
 };
