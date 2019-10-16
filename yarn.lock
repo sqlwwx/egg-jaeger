@@ -979,10 +979,9 @@ async-each@^1.0.1:
   resolved "https://registry.npm.taobao.org/async-each/download/async-each-1.0.3.tgz#b727dbf87d7651602f06f4d4ac387f47d91b0cbf"
   integrity sha1-tyfb+H12UWAvBvTUrDh/R9kbDL8=
 
-async-local-storage@^2.1.0:
+"async-local-storage@github:sqlwwx/async-local-storage#1e18f9e":
   version "2.3.1"
-  resolved "https://registry.npm.taobao.org/async-local-storage/download/async-local-storage-2.3.1.tgz#42004b3429ce34b2829959b73d050878a5bf9584"
-  integrity sha1-QgBLNCnONLKCmVm3PQUIeKW/lYQ=
+  resolved "https://codeload.github.com/sqlwwx/async-local-storage/tar.gz/1e18f9eb034f4be1c3f27427c82c7627fd59d8cd"
   dependencies:
     nano-seconds "^1.2.2"
 

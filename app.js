@@ -11,7 +11,7 @@ class AppBootHook {
     this.app.config.middleware.splice(middlewareIndex, 0, 'jaeger');
   }
   async didReady() {
-    this.app.als.enable();
+    this.app.als.enable({ ignoreNoneParent: true });
     hooks(this.app);
   }
 }
