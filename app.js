@@ -6,9 +6,9 @@ class AppBootHook {
   constructor(app) {
     this.app = app;
   }
-  configWillLoad() {
+  configDidLoad() {
     const { middlewareIndex } = this.app.config.jaeger;
-    this.app.config.middleware.splice(middlewareIndex, 0, 'jaeger');
+    this.app.config.coreMiddleware.splice(middlewareIndex, 0, 'jaeger');
   }
   async didReady() {
     this.app.als.enable({ ignoreNoneParent: true });
