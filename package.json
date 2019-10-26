@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "async-local-storage": "github:sqlwwx/async-local-storage#1886991",
+    "async-local-storage": "github:sqlwwx/async-local-storage#86d1fcf",
     "jaeger-client": "^3.17.0"
   },
   "devDependencies": {
