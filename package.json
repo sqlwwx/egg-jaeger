@@ -1,6 +1,6 @@
 {
   "name": "egg-jaeger",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "jaeger egg plugin",
   "eggPlugin": {
     "name": "jaeger"
