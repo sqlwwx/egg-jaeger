@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "async-local-storage": "github:sqlwwx/async-local-storage#86d1fcf",
+    "async-local-storage": "git+ssh://git@gitlab.weidiango.com:github-mirror/async-local-storage#v2",
     "jaeger-client": "^3.17.0"
   },
   "devDependencies": {
