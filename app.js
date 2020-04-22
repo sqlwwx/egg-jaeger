@@ -10,7 +10,7 @@ class AppBootHook {
     const { middlewareIndex } = this.app.config.jaeger;
     this.app.config.coreMiddleware.splice(middlewareIndex, 0, 'jaeger');
   }
-  async didReady() {
+  async serverDidReady() {
     this.app.als.enable({ ignoreNoneParent: true });
     hooks(this.app);
   }
