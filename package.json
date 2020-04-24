@@ -12,23 +12,23 @@
   ],
   "dependencies": {
     "async-local-storage": "git+ssh://git@gitlab.weidiango.com:github-mirror/async-local-storage#v2",
-    "jaeger-client": "^3.17.0"
+    "jaeger-client": "^3.18.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
-    "egg": "^2.23.0",
-    "egg-bin": "^4.13.2",
-    "egg-ci": "^1.13.0",
-    "egg-mock": "^3.24.1",
+    "egg": "^2.26.0",
+    "egg-bin": "^4.14.1",
+    "egg-ci": "^1.15.0",
+    "egg-mock": "^4.0.0",
     "egg-redis": "^2.2.0",
-    "eslint": "^6.5.1",
-    "eslint-config-egg": "^7.5.1",
-    "husky": "^3.0.8",
-    "lint-staged": "^9.4.1",
-    "standard-version": "^7.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-egg": "^8.0.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.7",
+    "standard-version": "^7.1.0",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
