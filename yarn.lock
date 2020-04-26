@@ -973,8 +973,8 @@ async-each@^1.0.1:
   integrity sha1-tyfb+H12UWAvBvTUrDh/R9kbDL8=
 
 "async-local-storage@git+ssh://git@gitlab.weidiango.com:github-mirror/async-local-storage#v2":
-  version "2.3.2"
-  resolved "git+ssh://git@gitlab.weidiango.com:github-mirror/async-local-storage#3467af29034dab63afb6aed2f7e55a87c320dc3d"
+  version "2.3.4"
+  resolved "git+ssh://git@gitlab.weidiango.com:github-mirror/async-local-storage#072dbb8541cc3cc0f135df3c5b5635bf5cdf9a9e"
   dependencies:
     nano-seconds "^1.2.2"
 
