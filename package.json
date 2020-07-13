@@ -28,7 +28,7 @@
     "eslint-config-egg": "^8.0.1",
     "husky": "^4.2.5",
     "lint-staged": "^10.1.7",
-    "standard-version": "^7.1.0",
+    "standard-version": "^8.0.1",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
