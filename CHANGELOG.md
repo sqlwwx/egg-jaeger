@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## <small>3.0.1 (2021-05-25)</small>
+
+* fix: init ([b8661f3](https://github.com/sqlwwx/egg-jaeger/commit/b8661f3))
+
+
+
 ## 3.0.0 (2021-05-25)
 
 * refactor: use AsyncLocalStorage ([55c9a20](https://github.com/sqlwwx/egg-jaeger/commit/55c9a20))
