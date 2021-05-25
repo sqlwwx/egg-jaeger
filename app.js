@@ -1,5 +1,7 @@
 'use strict';
 
+require('./lib/init');
+
 const hooks = require('./lib/hooks');
 
 class AppBootHook {
@@ -11,7 +13,6 @@ class AppBootHook {
     this.app.config.coreMiddleware.splice(middlewareIndex, 0, 'jaeger');
   }
   async serverDidReady() {
-    this.app.als.enable({ ignoreNoneParent: true });
     hooks(this.app);
   }
 }

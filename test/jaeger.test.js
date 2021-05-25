@@ -14,8 +14,8 @@ describe('test/jaeger.test.js', () => {
   after(() => app.close());
   afterEach(mock.restore);
 
-  it('should GET /', () => {
-    return app.httpRequest()
+  it('should GET /', async () => {
+    await app.httpRequest()
       .get('/')
       .expect('hi, jaeger_bar')
       .expect(200);

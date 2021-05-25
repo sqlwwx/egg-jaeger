@@ -18,16 +18,15 @@ const finishSpan = (span, ctx, err) => {
 };
 
 module.exports = (options, app) => async function jaegerMiddleware(ctx, next) {
-  app.als.scope();
-  const span = app.startSpan(ctx.url, {
+  const span = app.initSpan(ctx.url, {
     [Tags.HTTP_METHOD]: ctx.method,
     [Tags.HTTP_URL]: ctx.href,
   });
   try {
     await next();
-    finishSpan(span, ctx);
+    if (span) { finishSpan(span, ctx); }
   } catch (err) {
-    finishSpan(span, ctx, err);
+    if (span) { finishSpan(span, ctx, err); }
     throw err;
   }
 };
