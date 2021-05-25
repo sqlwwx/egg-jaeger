@@ -22,7 +22,7 @@ module.exports = {
   },
   initSpan(name, tags) {
     global.als.enterWith(new Map([[ 'layerCount', 1 ]]));
-    this.startSpan(name, tags);
+    return this.startSpan(name, tags);
   },
   startSpan(name, tags = {}) {
     this.coreLogger.debug('[egg-jaeger] startSpan %s', name);
