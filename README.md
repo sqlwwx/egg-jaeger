@@ -1,3 +1,5 @@
+***不要在生成环境使用***
+
 # egg-jaeger
 
 [![NPM version][npm-image]][npm-url]
